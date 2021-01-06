@@ -7,5 +7,5 @@ It supposed to run on apt distros without any graphical environment and login ma
 ## Usage
 Be root
 Clone it, run it via 
-''' bash run.sh '''
+``` bash run.sh ```
 Wait for 2-10 minutes depending on how fast is your system.
