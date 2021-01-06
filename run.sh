@@ -44,6 +44,6 @@ apt -y -qq install libc6-dev libxcb-randr0-dev libxcb-xinerama0-dev libxcb1-dev 
 make -s
 make -s install
 echo -e "\e[92m---------Done!"
-#dpkg -P --force-depends libpam0g-dev libxcb-xkb-dev
+apt remove libxcb-randr0-dev libxcb-xinerama0-dev libxcb1-dev libxft-dev libx11-xcb-dev libxkbcommon-x11-dev ascii libx11-dev libxcomposite-dev libxdamage-dev libxfixes-dev libxext-dev libxrender-dev libxrandr-dev libxinerama-dev x11proto-dev libpcre++-dev libconfig-dev libdrm-dev libgl-dev libdbus-1-dev asciidoc
 systemctl enable ly.service
 reboot
