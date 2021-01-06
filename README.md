@@ -5,8 +5,7 @@ If you want to use it for some reason instead of making your own - **think twice
 It supposed to run on apt distros without any graphical environment and login manager.
 
 ## Usage
-Be root
-Clone it, run it via 
+Be root, сlone it, run it via 
 ``` 
   bash run.sh 
 ```
