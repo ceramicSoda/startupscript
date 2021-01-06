@@ -11,7 +11,7 @@ apt install -y -qq htop build-essential git vim net-tools wpasupplicant psmisc a
 /sbin/usermod -aG sudo spacebar
 echo -e "\e[92m--------Done!"
 echo -e "\e[93m----------------GUI installation..."
-apt install -y -qq xorg mesa-utils xorg openbox obconf rofi xfonts-terminus lxappearance lemonbar xfce4-terminal firefox-esr telegram-desktop
+apt install -y -qq xorg mesa-utils xorg openbox obconf rofi xfonts-terminus lxappearance lemonbar xfce4-terminal firefox-esr telegram-desktop scrot
 echo -e "\e[92m--------Done!"
 #-------BUILDIN-GIT-STUFF-------
 echo -e "\e[93m----------------Installing login manager..."
