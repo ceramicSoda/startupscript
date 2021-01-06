@@ -40,7 +40,7 @@ cd ../
 echo -e "\e[93m----------------Installing lemonbar..."
 git clone https://github.com/drscream/lemonbar-xft
 cd lemonbar-xft
-apt -y -qq install libc6-dev libxcb-randr0-dev libxcb-xinerama0-dev libxcb1-dev libxft-dev x11-xkb-dev libx11-xcb-dev libxkbcommon-x11-dev
+apt -y -qq install libc6-dev libxcb-randr0-dev libxcb-xinerama0-dev libxcb1-dev libxft-dev libx11-xcb-dev libxkbcommon-x11-dev
 make -s
 make -s install
 echo -e "\e[92m---------Done!"
