@@ -44,6 +44,11 @@ apt -y -qq install libc6-dev libxcb-randr0-dev libxcb-xinerama0-dev libxcb1-dev 
 make -s
 make -s install
 echo -e "\e[92m---------Done!"
+apt -y -qq install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf xutils-dev libtool automake libxcb-shape0-dev libxcb-xrm-dev
+
+
+
 apt -y -qq remove libxcb-randr0-dev libxcb-xinerama0-dev libxcb1-dev libxft-dev libx11-xcb-dev libxkbcommon-x11-dev ascii libx11-dev libxcomposite-dev libxdamage-dev libxfixes-dev libxext-dev libxrender-dev libxrandr-dev libxinerama-dev x11proto-dev libpcre++-dev libconfig-dev libdrm-dev libgl-dev libdbus-1-dev asciidoc
 systemctl enable ly.service
+
 reboot
